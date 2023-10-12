@@ -1,0 +1,68 @@
+.card {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(10, 41, 68);
+    align-self: flex-end;
+    width: inherit;
+    width: 100%;
+}
+.balance ,.monthly{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    margin: 10px;
+    height: 90px;
+    justify-self: flex-start;
+}
+
+.card h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: darkslateblue;
+    font-weight: bolder;
+    flex: 1;
+}
+
+.uid p {
+}
+
+.uid span {
+    color: rgb(136, 114, 114);
+    font-weight: 10;
+}
+.uid {
+    border-radius: 6px;
+    font-size: small;
+    color: black;
+    padding: 1px;
+    background: linear-gradient(90deg,#d5bce5a9 2%,#cab8d5a0 40%,#ffffffa3 100%);
+}
+.card button{
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card button:hover
+{
+    color: #cab8d5;
+}
+.monthly label {
+    font-family:'Rubik', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0.5rem;
+    color: #306DA3;
+    position: relative;
+    align-self: flex-start;
+    justify-self:flex-start;
+}
+.monthly h1{
+    font-weight: 500;
+    color: #306DA3;
+}

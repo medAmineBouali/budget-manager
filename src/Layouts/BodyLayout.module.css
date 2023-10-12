@@ -1,0 +1,53 @@
+.grid {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 100%;
+    gap: 2rem;
+}
+
+.outlet {
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container {
+    border: 5px solid #e2e4e9;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: fill;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    background-color: rgba(255, 255, 255, 0.632);
+    overflow: hidden;
+    overflow-y: auto; 
+}
+.container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track (the area behind the thumb) */
+.container::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the track */
+}
+
+/* The thumb (the moving part) */
+.container::-webkit-scrollbar-thumb {
+  background-color: #8888885f; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners of the thumb */
+}
+
+/* On hover, make the thumb darker */
+.container::-webkit-scrollbar-thumb:hover {
+  background-color: #7a6a6a81;
+}

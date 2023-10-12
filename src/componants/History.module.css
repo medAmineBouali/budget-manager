@@ -1,0 +1,40 @@
+.history {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .history h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: darkslateblue;
+    font-weight: bolder;
+  }
+  
+  .history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .history th,
+  .history td {
+    border: 1px solid #e2e4e9;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .history th {
+    background-color: rgba(10, 41, 68, 0.1);
+    color: rgb(10, 41, 68);
+    font-weight: bolder;
+  }
+  
+  .history tr:nth-child(even) {
+    background-color: rgba(10, 41, 68, 0.05);
+  }
+  
+  .history tr:hover {
+    background-color: rgba(10, 41, 68, 0.15);
+  }
+  

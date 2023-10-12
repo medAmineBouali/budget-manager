@@ -1,0 +1,54 @@
+
+.form {
+}
+.form label {
+  color: rgb(10, 41, 68);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form select,
+.form input {
+  background-color: #f0e9f3;
+  color: black;
+  font: inherit;
+  padding: 0.25rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form .actions {
+  text-align: right;
+  margin-top: 1rem;
+}
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #90769b;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #dcadf0;
+    color: #b99c91;
+  }
+  .actions .button--alt {
+    color: #847d84;
+  }
+  
+  .actions .button {
+    background-color: #dcadf0;
+    color: white;
+  }
